@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Estou aqui para tirar suas dÃºvidas e passar algumas informaÃ§Ãµes sobre o coronavÃ­rus (Covid-19).
+    
+<button>
+    <text>TransmissÃ£o</text>
+    <postback>TransmissÃ£o</postback>
+</button>
+
+<button>
+    <text>Sintomas</text>
+    <postback>Sintomas</postback>
+</button>
+   
+   
+   <button>
+    <text>PrevenÃ§Ã£o</text>
+    <postback>PrevenÃ§Ã£o</postback>
+</button>
+
+
+<button>
+    <text>ExpansÃ£o do vÃ­rus</text>
+    <postback>ExpansÃ£o do vÃ­rus</postback>
+</button>
+
+
+
+   
+</template>
+  </category>
+ 
+<category>
+    <pattern>SINTOMAS</pattern>
+<template>
+    Os sintomas mais comuns do COVID-19 (conhecido por coronavÃ­rus) sÃ£o principalmente respiratÃ³rios, semelhantes a uma gripe:
+ 
+ <ul>
+     <li>Febre. ð¤</li>
+     <li>Tosse. ð©</li>
+     <li>Dor de Garganta ð</li>
+     <li>Dor no corpo ð </li>
+    <li> dificuldade ou dor para respirar ð </li>
+    
+ </ul>
+
+ 
+
+
+
+
+
+
+
+
+<delay>3</delay>
+
+A maioria das pessoas infectadas se recupera sem necessidade de um tratamento mÃ©dico especial. Nos casos mais graves pode causar: pneumonia, sÃ­ndrome respiratÃ³ria aguda grave, insuficiÃªncia renal e atÃ© morte.
+âï¸ Tenha em conta que a taxa de mortalidade Ã© muito baixa quando comparada com os Ã­ndices de cura.
+<delay>3</delay>
+
+â¼ï¸ Ainda que qualquer um possa contrair o coronavÃ­rus, pessoas idosas ou com condiÃ§Ãµes de agravo como pressÃ£o alta, problemas cardÃ­acos ou diabetes, tÃªm maior probabilidade de desenvolver doenÃ§as graves.
+
+<button>
+    <text>Tem esses sintomas? Sabia o que fazer</text>
+    <url>http://covid19.unifacema.edu.br/controle-a-covid-19</url>
+</button>
+
+<delay>3</delay>
+
+TambÃ©m Ã© importante saber...
+
+<button>
+    <text>PrevenÃ§Ã£o</text>
+    <postback>PrevenÃ§Ã£o</postback>
+</button>
+
+
+<button>
+    <text>ExpansÃ£o do vÃ­rus</text>
+    <postback>ExpansÃ£o do vÃ­rus</postback>
+</button>
+
+
+
+</template>
+
+</category>
+
+<category>
+    <pattern>ExpansÃ£o do vÃ­rus</pattern>
+    <template>
+        O primeiro caso de COVID-19 foi detectado na China, em Wuhan, em dezembro do ano passado. A doenÃ§a se espalhou para vÃ¡rios paÃ­ses da Ãsia, do Oriente MÃ©dio, da Europa atÃ© chegar ao nosso Continente.
+
+
+<delay>2</delay>
+<button>
+    <text>A OrganizaÃ§Ã£o Mundial da SaÃºde disponibiliza um levantamento de todos os casos identificados  de coronavÃ­rus atÃ© agora, por regiÃ£o e paÃ­s. VocÃª pode vÃª-lo clique aqui.</text>
+    <url>https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd</url>
+</button>
+
+<button>
+    <text>TransmissÃ£o</text>
+    <postback>TransmissÃ£o</postback>
+</button>
+
+<button>
+    <text>Sintomas</text>
+    <postback>Sintomas</postback>
+</button>
+   
+   
+   <button>
+    <text>PrevenÃ§Ã£o</text>
+    <postback>PrevenÃ§Ã£o</postback>
+</button>
+
+ 
+
+
+
+    </template>
+</category>
+
+
+<category>
+    <pattern>PrevenÃ§Ã£o</pattern>
+    <template>
+  <ul>
+      <li>MÃOS - Lavar frequentemente</li>
+      <li>COTOVELO - Usar para cobrir a tosse</li>
+       <li>ROSTO - NÃ£o tocar </li>
+      <li>ESPAÃO - Manter a distÃ¢ncia segura </li>
+      <li>CASA - NÃ£o sair, se possÃ­vel</li>
+  </ul>
+âï¸ Saiba mais: desde o dia 20 de marÃ§o de 2020, o Brasil Ã© considerado territÃ³rio com transmissÃ£o comunitÃ¡ria. Isso significa que qualquer pessoa que apresente sintomas gripais pode estar infectado pelo coronavÃ­rus.
+<delay>3</delay>
+Estar bem informado tambÃ©m Ã© uma forma de prevenir. Por isso, posso te contar mais sobre...
+
+    </template>
+</category>
+<category>
+    <pattern>TRANSMISSÃO</pattern>
+    
+    <template>O novo coronavÃ­rus, ou COVID-19, assim como outros vÃ­rus respiratÃ³rios, Ã© transmitido entre uma pessoa doente para outra. A doenÃ§a pode se espalhar por meio de pequenas gotÃ­culas do nariz ou da boca â expelidas por uma pessoa com COVID-19 quando tosse ou espirra, por exemplo. A transmissÃ£o do vÃ­rus por pessoas assintomÃ¡ticas, ou seja, que nÃ£o apresentam nenhum sintoma, ainda Ã© controversa.
+
+<delay>3</delay>
+
+Essas gotÃ­culas âpousamâ em objetos e superfÃ­cies ao redor da pessoa. Outras pessoas se infectam tocando esses objetos ou superfÃ­cies e depois tocando nos olhos, nariz ou boca.
+ 
+<delay>3</delay>
+
+Aqui estÃ£o alguns assuntos importantes sobre CoronavÃ­rus:
+
+
+<button>
+    <text>Sintomas</text>
+    <postback>Sintomas</postback>
+</button>
+   
+   
+   <button>
+    <text>PrevenÃ§Ã£o</text>
+    <postback>PrevenÃ§Ã£o</postback>
+</button>
+
+
+<button>
+    <text>ExpansÃ£o do vÃ­rus</text>
+    <postback>ExpansÃ£o do vÃ­rus</postback>
+</button>
+
+
+</template></category>
+
+
+
+</aiml>
